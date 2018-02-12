@@ -1,0 +1,22 @@
+{C:/Users/liuya/Documents/acdemic/ECE 552/adder/adder.sv} {1 {vlog -work work -sv -stats=none {C:\Users\liuya\Documents\acdemic\ECE 552\adder\adder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module addsub_4bit
+
+Top level modules:
+	addsub_4bit
+
+} {} {}} {C:/Users/liuya/Documents/acdemic/ECE 552/adder/addersub_4bit_tb.sv} {1 {vlog -work work -sv -stats=none {C:\Users\liuya\Documents\acdemic\ECE 552\adder\addersub_4bit_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module addsub_4bit_tb
+
+Top level modules:
+	addsub_4bit_tb
+
+} {} {}} {C:/Users/liuya/Documents/acdemic/ECE 552/adder/adder_1bit.sv} {1 {vlog -work work -sv -stats=none {C:\Users\liuya\Documents\acdemic\ECE 552\adder\adder_1bit.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module full_adder_1bit
+
+Top level modules:
+	full_adder_1bit
+
+} {} {}}
