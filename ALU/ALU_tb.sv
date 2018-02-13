@@ -14,57 +14,63 @@ initial begin
     repeat(100) begin
 	    temp = stim[3:0] + stim[7:4];
 	    #20 stim = $random;
-		assert(ALU_Out == temp) $display("success");
+		assert(ALU_Out == temp)
 		    else
 		            begin
-                        $display("sum is %d, it should be %d", Sum, stim[3:0] + stim[7:4]);
-                        $stop;
+                        $display("Result is %d, it should be %d",  ALU_Out, temp);
+                        
                     end
 
     end
+	$display("Addition tests passed");
 	#10;
 	
-    assign ops = 2'b10;
+    assign ops = 2'b01;
 	repeat(100) begin
 	    temp = stim[3:0] - stim[7:4];
 	    #20 stim = $random;
-		assert(ALU_Out == temp) $display("success");
+		assert(ALU_Out == temp)
 		    else 
 		        begin
-                    $display("sum is %d, it should be %d", Sum, stim[3:0] + stim[7:4]);
-                    $stop;
+                    $display("Result is %d, it should be %d",  ALU_Out, temp);
+                    
                 end
 
     end
+	$display("Subtraction tests passed");
     #10;
 	
-    assign ops = 2'b11;
+    assign ops = 2'b10;
 	repeat(100) begin
 	    temp = ~(stim[3:0] & stim[7:4]);
 	    #20 stim = $random;
-		assert(ALU_Out == temp) $display("success");
-		    else: 
+		assert(ALU_Out == temp)
+		    else 
 		        begin
-                    $display("sum is %d, it should be %d", Sum, stim[3:0] + stim[7:4]);
+                    $display("Result is %d, it should be %d",  ALU_Out, temp);
                     $stop;
                 end
 
     end
+	$display("NAND tests passed");
 	#10;
 
-    assign ops = 2'b01;
+    assign ops = 2'b11;
 	repeat(100) begin
 	    temp = stim[3:0] ^ stim[7:4];
 	    #20 stim = $random;
-		assert(ALU_Out == temp) $display("success");
-		    else: 
+		assert(ALU_Out == temp)
+		    else 
 		        begin
-                    $display("sum is %d, it should be %d", Sum, stim[3:0] + stim[7:4]);
+                    $display("Result is %d, it should be %d",  ALU_Out, temp);
                     $stop;
                 end
 
     end
+	$display("Xor tests passed");
 	#10;
+	
+	$stop;
 end
 
 

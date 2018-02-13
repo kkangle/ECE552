@@ -1,61 +1,22 @@
-{C:/Users/liuya/Documents/acdemic/ECE 552/adder/adder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/liuya/Documents/acdemic/ECE 552/adder/adder.sv}
+{D:/Academic/ece 552/ECE552/adder/adder_1bit.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/adder/adder_1bit.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module addsub_4bit
+-- Compiling module full_adder_1bit
 
 Top level modules:
-	addsub_4bit
+	full_adder_1bit
 
-} {} {}} {C:/Users/liuya/Documents/acdemic/ECE 552/adder/addersub_4bit_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/liuya/Documents/acdemic/ECE 552/adder/addersub_4bit_tb.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module addsub_4bit_tb
-
-Top level modules:
-	addsub_4bit_tb
-
-} {} {}} {C:/Users/liuya/Documents/acdemic/ECE 552/ALU/ALU.v} {1 {vlog -work work -stats=none {C:/Users/liuya/Documents/acdemic/ECE 552/ALU/ALU.v}
+} {} {}} {D:/Academic/ece 552/ECE552/ALU/ALU.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/ALU/ALU.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module ALU
 
 Top level modules:
 	ALU
 
-} {} {}} {C:/Users/liuya/Documents/acdemic/ECE 552/ALU/ALU_tb.v} {0 {vlog -work work -stats=none {C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v}
+} {} {}} {D:/Academic/ece 552/ECE552/adder/adder.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/adder/adder.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module ALU_tb
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(17): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(25): near "#": syntax error, unexpected '#'.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(28): near "repeat": syntax error, unexpected repeat.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(31): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';' or ','.
-
-** Error: C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(35): (vlog-13161) unexpected '$stop'
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(36): near "end": syntax error, unexpected end.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(42): near "repeat": syntax error, unexpected repeat.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(45): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';' or ','.
-
-** Error: C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(49): (vlog-13161) unexpected '$stop'
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(50): near "end": syntax error, unexpected end.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(56): near "repeat": syntax error, unexpected repeat.
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(59): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';' or ','.
-
-** Error: C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(63): (vlog-13161) unexpected '$stop'
-
-** Error: (vlog-13069) C:\Users\liuya\Documents\acdemic\ECE 552\ALU\ALU_tb.v(64): near "end": syntax error, unexpected end.
-
-
-} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 18.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 28.0 29.0 30.0 31.0} {}} {C:/Users/liuya/Documents/acdemic/ECE 552/adder/adder_1bit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/liuya/Documents/acdemic/ECE 552/adder/adder_1bit.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module full_adder_1bit
+-- Compiling module addsub_4bit
 
 Top level modules:
-	full_adder_1bit
+	addsub_4bit
 
 } {} {}}
