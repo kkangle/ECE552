@@ -22,6 +22,9 @@ initial begin
                     end
    
 	end
+	
+	stim = 8'b11111111;
+	assert(Ovfl == 1'b1) $display("overflow passed for add");
 	#10;
 	
 	assign sub = 1'b1;
@@ -36,6 +39,9 @@ initial begin
                         $stop;
                     end
 	end
+	
+	stim = 8'b01111111;
+	assert(Ovfl == 1'b1) $display("overflow passed for subtraction");
 	#10;
 	
 	$display("all tests passed");

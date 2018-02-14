@@ -9,7 +9,7 @@ wire [3:0] Cout;
 wire [3:0] invB;
 assign invB = sub? ~B + 1'b1: B;
 
-assign Ovfl = Cout[3];
+assign Ovfl = sub ? (Sum[3] & ~A[3] & ~B[3]) | (~Sum[3] & A[3] & B[3]): (Sum[3] & ~A[3] & B[3]) | (~Sum[3] & A[3] & ~B[3]);
 
 full_adder_1bit A1 (Sum[0], Cout[0], A[0], invB[0], 1'b0);
 full_adder_1bit A2 (Sum[1], Cout[1], A[1], invB[1], Cout[0]);
