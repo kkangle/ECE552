@@ -1,0 +1,29 @@
+{D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder_1bit.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder_1bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module full_adder_1bit
+
+Top level modules:
+	full_adder_1bit
+
+} {} {}} {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PSA_tb
+
+Top level modules:
+	PSA_tb
+
+} {} {}} {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/PSA.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/PSA.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PSA_16bit
+
+Top level modules:
+	PSA_16bit
+
+} {} {}} {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_4bit
+
+Top level modules:
+	adder_4bit
+
+} {} {}}

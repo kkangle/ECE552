@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vadder_4bit
+Z0 !s110 1519014781
+!i10b 1
+!s100 Pc;1<TZ0=>RiB:ZGY=^i:1
+IQ4kWbRQ0KW1`5^U:GQXm<3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Academic/ece 552/ECE552/Parallel_Sub-word_Add
+w1519012608
+8D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder.v
+FD:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1519014781.000000
+!s107 D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vaddsub_4bit
+!s110 1519012588
+!i10b 1
+!s100 k;NZaL5M6J7mM57h397SI1
+IFm24dCZLRjF;OM@2f;_hU3
+R1
+R2
+w1519011959
+8D:\Academic\ece 552\ECE552\Parallel_Sub-word_Add\adder.v
+FD:\Academic\ece 552\ECE552\Parallel_Sub-word_Add\adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519012588.000000
+!s107 D:\Academic\ece 552\ECE552\Parallel_Sub-word_Add\adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\Parallel_Sub-word_Add\adder.v|
+!s101 -O0
+!i113 1
+R5
+vaddsub_4bit_tb
+Z6 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1519014049
+!i10b 1
+!s100 n4AP4GP00[;AI<N;HkU:T3
+ICIHT6]JdS5GC52ffZ0^K63
+R1
+Z7 !s105 addersub_4bit_tb_sv_unit
+S1
+R2
+w1519014046
+Z8 8D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv
+Z9 FD:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519014049.000000
+!s107 D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv|
+!s101 -O0
+!i113 1
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfull_adder_1bit
+R0
+!i10b 1
+!s100 aOVZ2D?G5UfghWb@:Y6zN0
+InTodNWC[a3obK2a1Q^JCU3
+R1
+R2
+w1519011142
+8D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder_1bit.v
+FD:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/adder_1bit.v|
+!s101 -O0
+!i113 1
+R5
+vPSA_16bit
+R0
+!i10b 1
+!s100 fzL7NCClU9QLXhnN<5nG]2
+I1<K0o]6OkZdPON<`S3D3[3
+R1
+R2
+w1519012622
+8D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/PSA.v
+FD:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/PSA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/PSA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/PSA.v|
+!s101 -O0
+!i113 1
+R5
+n@p@s@a_16bit
+vPSA_tb
+R6
+!s110 1519015743
+!i10b 1
+!s100 T01Qzlg:@:zM2XHXg8IR:2
+Iea<k=hbd0ga2oS4aKJBh01
+R1
+R7
+S1
+R2
+w1519015739
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519015743.000000
+!s107 D:/Academic/ece 552/ECE552/Parallel_Sub-word_Add/addersub_4bit_tb.sv|
+R10
+!s101 -O0
+!i113 1
+R11
+n@p@s@a_tb
