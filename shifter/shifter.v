@@ -9,22 +9,22 @@ reg [15:0] sll, sra;
 
 always@(Mode or Shift_Val or Shift_In) begin
 	case(Shift_Val)
-		0: sll = Shift_In << 0;
-		1: sll = Shift_In << 1;
-		2: sll = Shift_In << 2;
-		3: sll = Shift_In << 3;
-		4: sll = Shift_In << 4;
-		5: sll = Shift_In << 5;
-		6: sll = Shift_In << 6;
-		7: sll = Shift_In << 7;
-		8: sll = Shift_In << 8;
-		9: sll = Shift_In << 9;
-		10: sll = Shift_In << 10;
-		11: sll = Shift_In << 11;
-		12: sll = Shift_In << 12;
-		13: sll = Shift_In << 13;
-		14: sll = Shift_In << 14;
-		15: sll = Shift_In << 15;
+		0: sll = Shift_In;
+		1: sll = {Shift_In[14:0], 1'b0};
+		2: sll = {Shift_In[13:0], 2'b0};
+		3: sll = {Shift_In[12:0], 3'b0};
+		4: sll = {Shift_In[11:0], 4'b0};
+		5: sll = {Shift_In[10:0], 5'b0};
+		6: sll = {Shift_In[9:0], 6'b0};
+		7: sll = {Shift_In[8:0], 7'b0};
+		8: sll = {Shift_In[7:0], 8'b0};
+		9: sll = {Shift_In[6:0], 9'b0};
+		10: sll = {Shift_In[5:0], 10'b0};
+		11: sll = {Shift_In[4:0], 11'b0};
+		12: sll = {Shift_In[3:0], 12'b0};
+		13: sll = {Shift_In[2:0], 13'b0};
+		14: sll = {Shift_In[1:0], 14'b0};
+		15: sll = {Shift_In[0], 15'b0};
 		default : sll = Shift_In;
 	endcase
 end
