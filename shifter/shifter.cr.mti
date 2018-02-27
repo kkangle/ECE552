@@ -1,15 +1,15 @@
-{D:/Academic/ece 552/ECE552/shifter/shifter.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/shifter/shifter.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Shifter
-
-Top level modules:
-	Shifter
-
-} {} {}} {D:/Academic/ece 552/ECE552/shifter/shifter_tb.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/shifter/shifter_tb.sv}
+{D:/Academic/ece 552/ECE552/shifter/shifter_tb.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/shifter/shifter_tb.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shifter_tb
 
 Top level modules:
 	shifter_tb
+
+} {} {}} {D:/Academic/ece 552/ECE552/shifter/shifter.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/shifter/shifter.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
 
 } {} {}}

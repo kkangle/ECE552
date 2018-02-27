@@ -1,0 +1,36 @@
+{D:/Academic/ece 552/ECE552/RegisterFile/Register.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\Register.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\ReadDecoder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ReadDecoder_4_16
+
+Top level modules:
+	ReadDecoder_4_16
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/D-Flip-Flop.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/RegisterFile/D-Flip-Flop.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder_tb.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ReadDecoder_tb
+
+Top level modules:
+	ReadDecoder_tb
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/BitCell.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\BitCell.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module BitCell
+
+Top level modules:
+	BitCell
+
+} {} {}}
