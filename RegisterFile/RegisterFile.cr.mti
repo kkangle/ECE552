@@ -1,11 +1,32 @@
-{D:/Academic/ece 552/ECE552/RegisterFile/Register.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\Register.v}
+{D:/Academic/ece 552/ECE552/RegisterFile/RegisterFile.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/Register_tb.sv} {1 {vlog -work work -sv -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\Register_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Register_tb
+
+Top level modules:
+	Register_tb
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/Register.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\Register.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Register
 
 Top level modules:
 	Register
 
-} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\ReadDecoder.v}
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_tb.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module WriteDecoder_tb
+
+Top level modules:
+	WriteDecoder_tb
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module ReadDecoder_4_16
 
@@ -25,6 +46,20 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	ReadDecoder_tb
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_4_16.v} {1 {vlog -work work -stats=none {D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_4_16.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module WriteDecoder_4_16
+
+Top level modules:
+	WriteDecoder_4_16
+
+} {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/BitCell_tb.sv} {1 {vlog -work work -sv -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\BitCell_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Bitcell_tb
+
+Top level modules:
+	Bitcell_tb
 
 } {} {}} {D:/Academic/ece 552/ECE552/RegisterFile/BitCell.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\RegisterFile\BitCell.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

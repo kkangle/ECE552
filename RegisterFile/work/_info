@@ -8,137 +8,284 @@ z2
 !i10f 100
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
-vBitCell
-Z0 !s110 1519703005
+vBitcell
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1519783032
 !i10b 1
-!s100 K38l7Q1NMTR9oF[o37jEQ1
-Idc33fK@6Y>E?>`Hn`MCOY3
+!s100 TT9i]YLe;D0mGzIlDo>oe0
+I]AQ[Sm^P0]6^PNY@:RCgk3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/Academic/ece 552/ECE552/RegisterFile
-w1519699844
-8D:\Academic\ece 552\ECE552\RegisterFile\BitCell.v
-FD:\Academic\ece 552\ECE552\RegisterFile\BitCell.v
+Z2 !s105 BitCell_tb_sv_unit
+S1
+Z3 dD:/Academic/ece 552/ECE552/RegisterFile
+w1519783028
+Z4 8D:\Academic\ece 552\ECE552\RegisterFile\BitCell_tb.sv
+Z5 FD:\Academic\ece 552\ECE552\RegisterFile\BitCell_tb.sv
 L0 1
-Z3 OP;L;10.4a;61
+Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1519703005.000000
+!s108 1519783032.000000
+Z7 !s107 D:\Academic\ece 552\ECE552\RegisterFile\BitCell_tb.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\BitCell_tb.sv|
+!s101 -O0
+!i113 1
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@bitcell
+vBitCell
+Z10 !s110 1519785149
+!i10b 1
+!s100 YTL[^1i2IEAgJ>k<T@S>Y3
+Ie[9H5baBn3=G3QQ7MmQ1_2
+R1
+R3
+w1519782048
+8D:\Academic\ece 552\ECE552\RegisterFile\BitCell.v
+FD:\Academic\ece 552\ECE552\RegisterFile\BitCell.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z11 !s108 1519785149.000000
 !s107 D:\Academic\ece 552\ECE552\RegisterFile\BitCell.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\BitCell.v|
 !s101 -O0
 !i113 1
-Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 n@bit@cell
+vBitcell_tb
+R0
+Z13 !s110 1519785150
+!i10b 1
+!s100 ;A=lBOcBGNPmMo4B13Hco2
+I:X<<jbfFFDa;]5<_ae`HM1
+R1
+R2
+S1
+R3
+w1519783311
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+Z14 !s108 1519785150.000000
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+n@bitcell_tb
 vdff
-Z6 !s110 1519703006
+R13
 !i10b 1
 !s100 PV_CoVVQ]?nI;J@mj=Gn=3
 I0z5;TzONI`gH9a`kZ:h033
 R1
-R2
+R3
 w1519698764
 8D:/Academic/ece 552/ECE552/RegisterFile/D-Flip-Flop.v
 FD:/Academic/ece 552/ECE552/RegisterFile/D-Flip-Flop.v
 L0 3
-R3
+R6
 r1
 !s85 0
 31
-Z7 !s108 1519703006.000000
+R11
 !s107 D:/Academic/ece 552/ECE552/RegisterFile/D-Flip-Flop.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Academic/ece 552/ECE552/RegisterFile/D-Flip-Flop.v|
 !s101 -O0
 !i113 1
-R5
+R12
 vReadDecoder_4_16
-R0
+R10
 !i10b 1
 !s100 oN2il_LQJW_Jl7cNVga`X1
-IU?cFS:oNY^@3iSXkS5^E`2
+ILY`Dl_2;R_:lEz`AjE:D33
 R1
-R2
-w1519702763
-8D:\Academic\ece 552\ECE552\RegisterFile\ReadDecoder.v
-FD:\Academic\ece 552\ECE552\RegisterFile\ReadDecoder.v
-L0 1
 R3
+w1519702763
+8D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v
+FD:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v
+L0 1
+R6
 r1
 !s85 0
 31
-R4
-!s107 D:\Academic\ece 552\ECE552\RegisterFile\ReadDecoder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\ReadDecoder.v|
+R11
+!s107 D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder.v|
 !s101 -O0
 !i113 1
-R5
+R12
 n@read@decoder_4_16
 vReadDecoder_tb
-DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-R6
+R0
+R10
 !i10b 1
 !s100 @lO_VgB316>Nl>RaBIR2e3
 I4FefT8TdBY1ZZI15h>m:z1
 R1
 !s105 ReadDecoder_tb_sv_unit
 S1
-R2
+R3
 w1519593790
 8D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder_tb.sv
 FD:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder_tb.sv
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R7
+R11
 !s107 D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Academic/ece 552/ECE552/RegisterFile/ReadDecoder_tb.sv|
 !s101 -O0
 !i113 1
-o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+R9
 n@read@decoder_tb
 vRegister
-R6
+R13
 !i10b 1
 !s100 LUozl<bQgPPCJ5Uo`Dd8M2
 IIVDCPkXQ`CUZRh<zDZfc=1
 R1
-R2
+R3
 w1519700896
 8D:\Academic\ece 552\ECE552\RegisterFile\Register.v
 FD:\Academic\ece 552\ECE552\RegisterFile\Register.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R7
+R14
 !s107 D:\Academic\ece 552\ECE552\RegisterFile\Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\Register.v|
 !s101 -O0
 !i113 1
-R5
+R12
 n@register
-vWriteDecoder_4_16
-R6
+vRegister_tb
+R0
+!s110 1519785151
 !i10b 1
-!s100 9AKg:eN4>AEmS7ARUHziV3
-Ib?nV]a>h;m>F17AkIA?Id3
+!s100 <>JIhJA0YdH:lP0YH^Wf>1
+IhGegj@@M]3M=n0nlPbOJZ3
 R1
-R2
-w1519702979
-8D:\Academic\ece 552\ECE552\RegisterFile\WriteDecoder_4_16.v
-FD:\Academic\ece 552\ECE552\RegisterFile\WriteDecoder_4_16.v
-L0 1
+!s105 Register_tb_sv_unit
+S1
 R3
+w1519783881
+8D:\Academic\ece 552\ECE552\RegisterFile\Register_tb.sv
+FD:\Academic\ece 552\ECE552\RegisterFile\Register_tb.sv
+L0 1
+R6
 r1
 !s85 0
 31
-R7
-!s107 D:\Academic\ece 552\ECE552\RegisterFile\WriteDecoder_4_16.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\WriteDecoder_4_16.v|
+!s108 1519785151.000000
+!s107 D:\Academic\ece 552\ECE552\RegisterFile\Register_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\Register_tb.sv|
 !s101 -O0
 !i113 1
-R5
+R9
+n@register_tb
+vRegisterFile
+R13
+!i10b 1
+!s100 j9Ul^]7IZYEF5mJnci2D:0
+I4O[Ek]f]j0aGh=TePRVBi0
+R1
+R3
+w1519784136
+8D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile.v
+FD:\Academic\ece 552\ECE552\RegisterFile\RegisterFile.v
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+!s107 D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile.v|
+!s101 -O0
+!i113 1
+R12
+n@register@file
+vRegisterFile_tb
+R0
+!s110 1519786024
+!i10b 1
+!s100 iSeOB`41[gjR3[l_j8oUP1
+IZmb]_JFho9k]?<bFFENVN1
+R1
+!s105 RegisterFile_tb_sv_unit
+S1
+R3
+w1519786015
+8D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile_tb.sv
+FD:\Academic\ece 552\ECE552\RegisterFile\RegisterFile_tb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519786024.000000
+!s107 D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Academic\ece 552\ECE552\RegisterFile\RegisterFile_tb.sv|
+!s101 -O0
+!i113 1
+R9
+n@register@file_tb
+vWriteDecoder_4_16
+R10
+!i10b 1
+!s100 2P<`V7UP4nna7U510jafY0
+IPBBbgCdFmMH91ciVkQ51Z3
+R1
+R3
+w1519767117
+8D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_4_16.v
+FD:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_4_16.v
+L0 1
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_4_16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_4_16.v|
+!s101 -O0
+!i113 1
+R12
 n@write@decoder_4_16
+vWriteDecoder_tb
+R0
+R13
+!i10b 1
+!s100 [:G[;=<A9@oJkobbIPNY40
+IRbJ@BVT>I2MoKeciC:YDj0
+R1
+!s105 WriteDecoder_tb_sv_unit
+S1
+R3
+w1519766713
+8D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_tb.sv
+FD:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_tb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+!s107 D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Academic/ece 552/ECE552/RegisterFile/WriteDecoder_tb.sv|
+!s101 -O0
+!i113 1
+R9
+n@write@decoder_tb
