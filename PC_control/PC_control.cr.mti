@@ -1,0 +1,29 @@
+{D:/Academic/ece 552/ECE552/PC_control/pc_control.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\PC_control\pc_control.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC_control
+
+Top level modules:
+	PC_control
+
+} {} {}} {D:/Academic/ece 552/ECE552/PC_control/adder.sv} {1 {vlog -work work -sv -stats=none {D:\Academic\ece 552\ECE552\PC_control\adder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module addsub_4bit
+
+Top level modules:
+	addsub_4bit
+
+} {} {}} {D:/Academic/ece 552/ECE552/PC_control/16bit_adder.v} {1 {vlog -work work -stats=none {D:\Academic\ece 552\ECE552\PC_control\16bit_adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {D:/Academic/ece 552/ECE552/PC_control/adder_1bit.sv} {1 {vlog -work work -sv -stats=none {D:/Academic/ece 552/ECE552/PC_control/adder_1bit.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module full_adder_1bit
+
+Top level modules:
+	full_adder_1bit
+
+} {} {}}

@@ -1,0 +1,126 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vaddsub_4bit
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1520217243
+!i10b 1
+!s100 U>d90e:=I`5hZm>iXc=TU0
+ILz=L?6bMTBERMDA4L6:k=0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+Z3 dD:/Academic/ece 552/ECE552/PC_control
+w1520214392
+8D:\Academic\ece 552\ECE552\PC_control\adder.sv
+FD:\Academic\ece 552\ECE552\PC_control\adder.sv
+L0 1
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1520217243.000000
+!s107 D:\Academic\ece 552\ECE552\PC_control\adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Academic\ece 552\ECE552\PC_control\adder.sv|
+!s101 -O0
+!i113 1
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfull_adder
+R1
+!i10b 1
+!s100 :OBJoVZM7`PR;OBRnXfCB2
+IAoiEI5fCWI9d?=i`c3nS33
+R2
+R3
+w1520214530
+8D:\Academic\ece 552\ECE552\PC_control\16bit_adder.v
+FD:\Academic\ece 552\ECE552\PC_control\16bit_adder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Academic\ece 552\ECE552\PC_control\16bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\PC_control\16bit_adder.v|
+!s101 -O0
+!i113 1
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfull_adder_1bit
+R0
+R1
+!i10b 1
+!s100 6oa@c>FnZSVk]Yc;De4?10
+IkfKaiE6`GXGoZCU^]nISa3
+R2
+!s105 adder_1bit_sv_unit
+S1
+R3
+w1518483898
+8D:/Academic/ece 552/ECE552/PC_control/adder_1bit.sv
+FD:/Academic/ece 552/ECE552/PC_control/adder_1bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Academic/ece 552/ECE552/PC_control/adder_1bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Academic/ece 552/ECE552/PC_control/adder_1bit.sv|
+!s101 -O0
+!i113 1
+R6
+vPC_control
+R1
+!i10b 1
+!s100 EB[YRNkh;<TE7<BIGCA7Q1
+IMYf2?CAV=EH`lZo?E27ED0
+R2
+R3
+w1520217156
+8D:\Academic\ece 552\ECE552\PC_control\pc_control.v
+FD:\Academic\ece 552\ECE552\PC_control\pc_control.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Academic\ece 552\ECE552\PC_control\pc_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Academic\ece 552\ECE552\PC_control\pc_control.v|
+!s101 -O0
+!i113 1
+R7
+n@p@c_control
+vPC_control_tb
+R0
+R1
+!i10b 1
+!s100 Z=5lQNQJdU0c@EFb29zfk0
+IW?ojKgTMkGiidY<4Q9Z_@3
+R2
+!s105 pc_control_tb_sv_unit
+S1
+R3
+w1520217238
+8D:\Academic\ece 552\ECE552\PC_control\pc_control_tb.sv
+FD:\Academic\ece 552\ECE552\PC_control\pc_control_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Academic\ece 552\ECE552\PC_control\pc_control_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Academic\ece 552\ECE552\PC_control\pc_control_tb.sv|
+!s101 -O0
+!i113 1
+R6
+n@p@c_control_tb
